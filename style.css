@@ -298,14 +298,14 @@ input[name^="slide"] {
 /* RESUME */
 
 .resume-section .btn {
-  display: inline-block;
+  
+  display: flex;
+  flex-direction: column;   
+  gap: 14px;
+  align-items: center;
   margin-top: 25px;
-  padding: 14px 36px;
-  background: linear-gradient(135deg, #8b5cf6, #f472b6);
-  color: #fff;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 15px;
+
+
 }
 
 /* CONTACT */
@@ -343,4 +343,5 @@ footer p {
     font-size: 28px;
   }
 }
+
 
