@@ -298,15 +298,17 @@ input[name^="slide"] {
 /* RESUME */
 
 .resume-section .btn {
-  
   display: flex;
-  flex-direction: column;   
-  gap: 14px;
-  align-items: center;
+  flex-direction: column;
   margin-top: 25px;
-
-
+  padding: 14px 36px;
+  background: linear-gradient(135deg, #8b5cf6, #f472b6);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
 }
+
 
 /* CONTACT */
 
@@ -343,33 +345,4 @@ footer p {
     font-size: 28px;
   }
 }
-
-/* ===== RESUME BUTTON COLOR  ===== */
-
-.resume-buttons .view-btn {
-  color: #6b4eff;
-  border: 2px solid #cbbcff;
-  background: linear-gradient(
-    135deg,
-    rgba(203,188,255,0.15),
-    rgba(243,198,255,0.15)
-  );
-}
-
-.resume-buttons .view-btn:hover {
-  background: linear-gradient(135deg, #cbbcff, #f3c6ff);
-  color: #fff;
-}
-
-/* DOWNLOAD */
-.resume-buttons .download-btn {
-  background: linear-gradient(135deg, #b9a7ff, #f2b6e8);
-  color: #fff;
-}
-
-.resume-buttons .download-btn:hover {
-  background: linear-gradient(135deg, #a995ff, #eca4dd);
-}
-
-
 
