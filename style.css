@@ -344,4 +344,32 @@ footer p {
   }
 }
 
+/* ===== RESUME BUTTON COLOR  ===== */
+
+.resume-buttons .view-btn {
+  color: #6b4eff;
+  border: 2px solid #cbbcff;
+  background: linear-gradient(
+    135deg,
+    rgba(203,188,255,0.15),
+    rgba(243,198,255,0.15)
+  );
+}
+
+.resume-buttons .view-btn:hover {
+  background: linear-gradient(135deg, #cbbcff, #f3c6ff);
+  color: #fff;
+}
+
+/* DOWNLOAD */
+.resume-buttons .download-btn {
+  background: linear-gradient(135deg, #b9a7ff, #f2b6e8);
+  color: #fff;
+}
+
+.resume-buttons .download-btn:hover {
+  background: linear-gradient(135deg, #a995ff, #eca4dd);
+}
+
+
 
