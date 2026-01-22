@@ -309,7 +309,6 @@ input[name^="slide"] {
   font-size: 15px;
 }
 
-
 /* CONTACT */
 
 .contact-box {
@@ -326,7 +325,7 @@ input[name^="slide"] {
 footer {
   padding: 40px 20px;
   text-align: center;
-  background: #8b5cf6;   /* same as Portfolio accent */
+  background: #8b5cf6;   
   color: #ffffff;
 }
 
